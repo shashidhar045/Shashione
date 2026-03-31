@@ -1,0 +1,36 @@
+Indicators:
+1)Super Trend
+2)VWMA
+3)VWAP
+4)EMA with length = 9
+5)EMA with length = 21
+6)RSI 14
+7)Williams fractal with inputs periods = 20
+8)MACD
+
+#Strategy1: EMA
+-When 9 EMA crossing 21 EMA and at the same time price is above VMAP,VWMA and Super trend -  take trade.
+-When 9 EMA crossing 21 EMA and at the same time price is above VMAP,VWMA but below ST it may respect ST, once candle closes above ST - take a trade.
+-When 9 EMA crossing 21 EMA and price is below VMAP,VWMA and Super trend, it respect all these - Take trade till VMAP,VWMA and Super trend.
+
+#Strategy2: VWAP
+- A)When price closes above VWAP with a green candle, at closing of that of a green candle, take a trade.
+- Stop loss 10/15/20 Points
+--While price closes above VWAP with a green candle and at the same time price is above VWMA(20), then it's an added advantage that is price is above VWMA and candle closes above    VWAP with Green candle.
+
+##Strategy3: VWAP and VWMA(5 and 20) - Follow
+
+-When 5 VWMA crosses 20 VWMA and the price closes above VWAP with a green candle, at closing of that of a green candle, take a trade
+OR
+-Price closes above VWAP with a green candle and then 5 VWMA crosses 20 VWMA, take a trade a VWMA crossing.
+
+
+
+
+
+
+
+
+
+
+
